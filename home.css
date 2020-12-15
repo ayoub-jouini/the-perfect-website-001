@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+
+}
+nav {
+    height: 80px;
+    display: grid;
+    align-items: center;
+    margin: 0 40px;
+}
+.nav-bar nav {
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+nav a {
+    padding: 10px;
+}
+#btb {
+    font-size: 30px;
+}
+.left-nav-list {
+    display: flex;
+    align-content: flex-end;
+}
