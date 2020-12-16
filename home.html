@@ -6,7 +6,7 @@
     <title>back in black</title>
     <link rel="stylesheet" href="home.css">
 </head>
-<body>
+<body onload=set_time()>
     <div>
         <div class="nav-bar">
             <nav>
@@ -28,10 +28,36 @@
                 </div>
             </nav>
         </div>
+        <div class="backimg">
+            <img src="images/nathan-dumlao-6VhPY27jdps-unsplash.png" class="img">
+
+        </div>
         
 
 
     </div>
+    <script>
+        var start=1;
+        function set_time(){
+            setInterval(image_show,1000);
+        }
+        function image_show(){
+            var image_data;
+            if(start==1){
+                image_data="images/nathan-dumlao-6VhPY27jdps-unsplash.png";
+                start=2;
+            }
+            else if(start==2){
+                image_data="images/leon-seibert-h9J8yDGwlGI-unsplash.png";
+                start=3;
+            }
+            else if(start==3){
+                image_data="images/Alexander\ Lobrano’s\ Letter\ from\ Paris_\ 2\ Bistros\,\ One\ Sublime\,\ One\ Otherwise.png";
+                start=1;
+            }
+            document.getElementsByClassName("img").src=""+image_data;
+        }
+    </script>
     
 </body>
 </html>
