@@ -42,13 +42,30 @@ nav a {
     width: 100%;
     height: 100%;
 }
-.part2 {
+.part-cont {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 80px 30px;
+    
 }
 .part2 img{
     height: 300px;
     width: 300px;
+}
+.txt {
+    margin-top: 8px;
+}
+.part3 img{
+    height: 550px;
+    width: 700px;
+}
+.part4 {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 30px;
+}
+.grid-part4 {
+    display: grid;
+    grid-template-columns: auto 15% 15% 15% 15%;
 }
