@@ -42,6 +42,9 @@ nav a {
     padding: 10px;
     color: white;
 }
+.show-menu {
+    display: block;
+}
 @media (max-width:990px){
     .nav-bar {
         display: flex;
@@ -56,7 +59,7 @@ nav a {
         display: block;
     }
     .bar-list {
-        /*display: none;*/
+        display: none;
         position: absolute;
         width: 100%;
         height: 100%;

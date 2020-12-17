@@ -175,6 +175,19 @@
             
         }
     </script>
+    <script>
+        var barlist=document.getElementsByClassName('bar-list');
+  var closeMenu=document.getElementById('close-menu');
+  
+  document.getElementsByClassName('menu-icon').addEventListener('click', function() {
+      barlist.classList.add('show-menu');
+  
+  });
+  document.getElementById('close-menu').addEventListener('click', function() {
+      barlist.classList.remove('show-menu');
+      
+  });
+    </script>
     
 </body>
 </html>
