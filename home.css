@@ -120,4 +120,5 @@ nav a {
 .grid-part4 {
     display: grid;
     grid-template-columns: auto 15% 15% 15% 15%;
+    gap: 25px;
 }
