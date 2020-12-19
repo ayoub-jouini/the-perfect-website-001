@@ -106,11 +106,15 @@ nav a {
     width: 300px;
 }
 .txt {
-    margin-top: 8px;
+    margin: 5% 10%;
 }
 .part3 img{
-    height: 550px;
-    width: 700px;
+    height:100%;
+    width: 180%;
+    margin: 0 10%;
+}
+.part3 div{
+    width: 50%;
 }
 .part4 {
     display: flex;
